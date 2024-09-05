@@ -1,0 +1,29 @@
+.colorful {
+  width: 31.4px;
+  height: 31.4px;
+  background: #474bff;
+  border-radius: 50%;
+  animation: colorful-qyh1n1md 1.5s infinite;
+}
+
+@keyframes colorful-qyh1n1md {
+  0%, 100% {
+     transform: translate(-39.2px);
+     box-shadow: 0     0 #ff6761, 0     0 #ffd82e;
+  }
+
+  40% {
+     transform: translate( 39.2px);
+     box-shadow: -16.8px  0 #ff6761,-33.6px  0 #ffd82e;
+  }
+
+  50% {
+     transform: translate( 39.2px);
+     box-shadow: 0     0 #ff6761, 0     0 #ffd82e;
+  }
+
+  90% {
+     transform: translate(-39.2px);
+     box-shadow: 16.8px  0 #ff6761, 33.6px  0 #ffd82e;
+  }
+}

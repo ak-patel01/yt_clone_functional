@@ -1,0 +1,30 @@
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.ytBtn{
+  font-size: 14px;
+  font-weight: 600;
+  height: 32;
+  width: fit-content;
+  padding: 4px 12px;
+  margin: 12px 12px 12px 0px;
+  border-radius: 8px;
+  white-space:nowrap;
+}
+
+.ytColor1:hover{
+  background-color: #ffffff3A;
+}
+
+.ytColor1{
+  border: #ffffff2A;
+  background-color: #ffffff1A;
+  color: white;
+}
+
+.ytColor2{
+  border: white;
+  background-color: white;
+  color: black;
+}
